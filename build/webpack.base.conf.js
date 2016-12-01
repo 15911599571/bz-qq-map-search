@@ -83,6 +83,6 @@ module.exports = {
     loaders: utils.cssLoaders()
   },
   externals: {
-    jquery: 'jQuery'
+    jQuery: 'jQuery'
   }
 }

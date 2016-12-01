@@ -1,4 +1,4 @@
-# bz-demo
+# bz-qq-map-search
 
 > some oauth2 button with vue.js base on semantic ui
 

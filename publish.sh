@@ -1,4 +1,4 @@
 #! /bin/bash
-./change_name.sh
+sh ./change_name.sh
 npm run build
 npm publish ./
