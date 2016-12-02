@@ -1,7 +1,7 @@
 {
-  "name": "bz-base",
+  "name": "bz-qq-map-search",
   "version": "2.0.0",
-  "description": "bz-base",
+  "description": "bz-qq-map-search",
   "main": "src/Bz.vue",
   "keywords": [
     "vue",
@@ -11,12 +11,12 @@
   "author": "bigzhu <vermiliondun@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bigzhu/bz-base.git"
+    "url": "git+https://github.com/bigzhu/bz-qq-map-search.git"
   },
   "bugs": {
-    "url": "https://github.com/bigzhu/bz-base/issues"
+    "url": "https://github.com/bigzhu/bz-qq-map-search/issues"
   },
-  "homepage": "https://github.com/bigzhu/bz-base#readme",
+  "homepage": "https://github.com/bigzhu/bz-qq-map-search#readme",
   "files": [
     "src/Bz.vue",
     "src/assets"
