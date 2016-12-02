@@ -1,4 +1,4 @@
-<style lang=less>
+<style>
   .original-text-bz {
     /*保留空格*/
     white-space: pre-wrap;

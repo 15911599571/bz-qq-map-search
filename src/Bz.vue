@@ -1,6 +1,3 @@
-<style lang="less">
-</style>
-
 <template>
   <div class="search">
     <we-search-bar :search="search" :focus="clearOverlays" cancel="clearOverlays"></we-search-bar>

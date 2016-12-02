@@ -1,6 +1,11 @@
 #! /bin/bash
 # 执行一次以后，把自已也替换了，也是搞
-target='bz-qq-map-search'
+target='bz-base'
+real_name=$(basename `pwd`)
+
+if [ $target != $real_name ]
+then
+    replace.py $target $real_name
 real_name=$(basename `pwd`)
 
 if [ $target != $real_name ]
