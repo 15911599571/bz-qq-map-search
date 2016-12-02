@@ -6,9 +6,4 @@ real_name=$(basename `pwd`)
 if [ $target != $real_name ]
 then
     replace.py $target $real_name
-real_name=$(basename `pwd`)
-
-if [ $target != $real_name ]
-then
-    replace.py $target $real_name
 fi

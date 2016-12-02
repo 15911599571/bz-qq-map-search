@@ -11,10 +11,10 @@
   "author": "bigzhu <vermiliondun@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bigzhu/bz-qq-map-search.git"
+    "url": "git+https://github.com/bigzhu/bz-base.git"
   },
   "bugs": {
-    "url": "https://github.com/bigzhu/bz-qq-map-search/issues"
+    "url": "https://github.com/bigzhu/bz-base/issues"
   },
   "homepage": "https://github.com/bigzhu/bz-base#readme",
   "files": [

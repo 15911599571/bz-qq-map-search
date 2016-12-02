@@ -1,24 +1,3 @@
-<style>
-  .original-text-bz {
-    /*保留空格*/
-    white-space: pre-wrap;
-    /*字体能自动换行*/
-    word-wrap:break-word;
-  }
-  code {
-    padding: 2px 4px;
-    font-size: 90%;
-    color: #c7254e;
-    background-color: #f9f2f4;
-    border-radius: 4px;
-    .original-text-bz;
-  }
-  .map {
-    width: 100%;
-    height: 500px;
-  }
-</style>
-
 <template>
   <div class="ui container segment">
     <h1>{{name}}</h1>
@@ -40,17 +19,11 @@
     <code v-text="code"></code>
     <div class="ui divider"></div>
     <map-search :map="map" ></map-search>
-    <q-map :map.sync="map" class="map"></q-map>
+    <q-map style="height: 500px;" v-model="map" class="map"></q-map>
   </div>
 </template>
 
 <script>
-  import 'semantic-ui/dist/components/site.css'
-  import 'semantic-ui/dist/components/reset.css'
-  import 'semantic-ui/dist/components/table.css'
-  import 'semantic-ui/dist/components/container.css'
-  import 'semantic-ui/dist/components/divider.css'
-
   import 'weui/dist/style/weui.css'
 
   import MapSearch from './Bz.vue'
@@ -90,4 +63,3 @@
     }
   }
 </script>
-
